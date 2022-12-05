@@ -1,0 +1,129 @@
+/* обнуление некоторых стилей */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* стили задания */
+
+header {
+	align-items: center;
+	/* background-color: #FFE4B5; */  /* заливка цветом, либо вставка картинки задним фоном */
+	background: url('./img/mountain_1.jpg') top no-repeat;
+	background-size: cover;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+		
+}
+
+h1 {	
+	color: #203AA2;
+	font-size: 4rem;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.main_title:hover {  
+	color: #8B4513;
+	font-size: 6rem;
+	transition: all 0.5s;	   /*?       доработать        */
+}
+
+section:nth-child(2n+1) {
+	background-color: #AFEEEE;
+}
+
+.news {
+	background-color: #FFEFD5;
+	padding:  25px 50px 40px;	
+}
+
+article {
+	width: 768px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	border-bottom: 1px solid #8B4513;
+}
+
+article a {
+	color: #203AA2;
+	text-decoration: none;
+}
+
+article a:hover {
+	color: #8B4513;
+}
+
+.new::before {
+	content: "Интересненько";
+	color: red;
+	border-color: red;
+  border-style: dotted;
+	padding: 0 8px;
+}
+
+article h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-bottom: 10px;
+}
+
+article p {
+	font-size: 20px;
+	/*?align: center;        надо как то выровнять ? */
+}
+
+.article-meta {
+	color: #8B4513;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+article img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+footer {
+	background-color: #AFEEEE;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+footer .links {
+	margin-bottom: 50px;
+}
+
+.links > a:hover {
+	color: #8B4513;
+}
+
+footer .links > a {
+	color: #203AA2;
+	padding: 0 25px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.copyright {
+	color: #203AA2;
+	font-family: 'Times New Roman', Times, serif;
+}
+
