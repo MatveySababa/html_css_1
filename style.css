@@ -1,4 +1,4 @@
-/* обнуление некоторых стилей */
+/** обнуление некоторых стилей */
 
 * {
   padding: 0;
@@ -17,11 +17,11 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* стили задания */
+/** стили задания */
 
 header {
 	align-items: center;
-	/* background-color: #FFE4B5; */  /* заливка цветом, либо вставка картинки задним фоном */
+	/** background-color: #FFE4B5; */  /* заливка цветом, либо вставка картинки задним фоном */
 	background: url('./img/mountain_1.jpg') top no-repeat;
 	background-size: cover;
 	display: flex;
@@ -41,7 +41,9 @@ h1 {
 
 .news {
 	background-color: #FFEFD5;
-	padding:  25px 50px 40px;	
+	padding:  25px 50px 40px;
+	display: flex;
+	justify-content: center;
 }
 
 article {
@@ -61,7 +63,7 @@ article a:hover {
 }
 
 .new::before {
-	content: "Интересненько";
+	content: "NEW";
 	color: red;
 	border-color: red;
   border-style: dotted;
@@ -74,8 +76,7 @@ article h2 {
 }
 
 article p {
-	font-size: 20px;
-	/*?align: center;        надо как то выровнять ? */
+	font-size: 20px;	
 }
 
 .article-meta {
