@@ -51,6 +51,7 @@ article {
 	margin: 0 auto;
 	padding: 10px 10px;
 	border-bottom: 1px solid #8B4513;
+	text-align: center;
 }
 
 article a {
@@ -76,7 +77,8 @@ article h2 {
 }
 
 article p {
-	font-size: 20px;	
+	font-size: 20px;
+	text-align: justify; 	
 }
 
 .article-meta {
