@@ -26,8 +26,7 @@ header {
 	background-size: cover;
 	display: flex;
 	height: 400px;
-	justify-content: center;
-		
+	justify-content: center;		
 }
 
 h1 {	
@@ -36,13 +35,7 @@ h1 {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-.main_title:hover {  
-	color: #8B4513;
-	font-size: 6rem;
-	transition: all 0.5s;	   /*?       доработать        */
-}
-
-section:nth-child(2n+1) {
+.news:nth-child(2n+1) {
 	background-color: #AFEEEE;
 }
 
